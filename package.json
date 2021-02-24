@@ -1,0 +1,24 @@
+{
+	"name": "n-ironov",
+	"version": "1.0.0",
+	"description": "Дизайнер, художник и нейросеть Николай Иронов (Тема для Opera)",
+	"main": "Gruntfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ProjectSoft-STUDIONIONS/N-IRONOV_themeOpera.git"
+	},
+	"author": "ProjectSoft <projectsoft2009@yandex.ru>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ProjectSoft-STUDIONIONS/N-IRONOV_themeOpera/issues"
+	},
+	"homepage": "https://github.com/ProjectSoft-STUDIONIONS/N-IRONOV_themeOpera#readme",
+	"devDependencies": {
+		"grunt": "^1.3.0",
+		"grunt-exec": "^3.0.0",
+		"grunt-zip": "^0.18.2"
+	}
+}
