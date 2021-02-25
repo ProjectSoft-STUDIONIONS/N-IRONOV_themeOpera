@@ -19,7 +19,7 @@ module.exports = function (grunt) {
 		},
 		exec: {
 			ffmpeg: {
-				cmd: 'start "" /wait ffmpeg -i src/converted.mp4 -acodec libvorbis -aq 5 -ac 2 -qmax 25 -threads 2 build/converted.webm'
+				cmd: 'start "" /wait ffmpeg -i src/converted.mp4 -threads 2 -b:v 40000K -an -y -hide_banner build/converted.webm'
 			}
 		}
 	});
